@@ -1,0 +1,12 @@
+@baseurl = http://localhost:3000
+
+GET {{baseurl}}/sports
+
+###
+POST {{baseurl}}/sports
+Content-Type: application/json
+
+{
+    "name": "karate"
+}
+
