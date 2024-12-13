@@ -3,17 +3,22 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./aula12/http.js"
+    "dev": "ts-node-dev --watch aula20/hello-world.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@types/express": "^5.0.0",
     "dotenv": "^16.4.7",
     "eslint": "^9.16.0",
+    "express": "^4.21.2",
     "nodemon": "^3.1.7",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0"
   }
 }
